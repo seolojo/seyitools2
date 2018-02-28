@@ -1,0 +1,10 @@
+Package: seyitools2
+Title: gathers basic statistics of athletes
+Version: 0.0.0.9000
+Authors@R: person("Oluwaseyi", "Olojo", email = "oeo2110@barnard.edu", role = c("aut", "cre"))
+Description: This package is specifically useful for the Seasons_stats_NBA.csv dataset. It requires a single year as the input for reach of the three functions.The first function, max_pts_year, outputs the player’s name with the highest amount of points for the year entered. The second function, oldest_player, outputs the oldest player in the league for the given year entered. The last function, corr_matrix, displays the correlation matrix of all numerical values in the dataset for a given year.
+Depends: R (>= 3.3.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
